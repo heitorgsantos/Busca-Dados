@@ -23,12 +23,13 @@ function Home() {
     setNumCnpj("");
   };
 
+
   //   useEffect(() => {
   //     console.log(handleFetchApi(), 'aqui')
   //   },[])
 
   return (
-    <div>
+    <div className="div-main">
       <input
         type={"text"}
         value={numCnpj}
@@ -53,5 +54,6 @@ function Home() {
     </div>
   );
 }
+
 
 export default Home;
