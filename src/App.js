@@ -7,8 +7,8 @@ import DadosCnpj from "./pages/components/DadosCnpj";
 function App() {
   return (
     <Routes>
-      <Route element={<Home />} path="/"/>
-      <Route element={<Login />} path="/login" />
+      <Route element={<Login />} path="/" />
+      <Route element={<Home />} path="/home"/>
       <Route element={<DadosCnpj/>} path="/resultados"/>
 
     </Routes>

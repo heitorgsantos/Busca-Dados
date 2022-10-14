@@ -8,6 +8,7 @@ const validaEmail = (email) => {
 };
 
 const validaSenha = (senha) => {
+  console.log(senha)
   if (senha.length < 8) {
     return false;
   }
